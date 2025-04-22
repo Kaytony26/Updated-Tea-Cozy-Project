@@ -1,0 +1,116 @@
+* {
+    box-sizing: content-box;
+    
+}
+body{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: seashell;
+    opacity: 0.9;
+}
+.containers {
+    border: 1px solid red;
+    background-color: black;
+    width: 1800px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 1px solid seashell;
+    height: 90px;
+}
+.logo {
+    float: left;
+    padding-left: 10px;
+    height: 40px;
+    opacity: 0.9;
+    position: fixed;
+}
+.nav {
+    float: right;
+    margin-top: 30px;
+    padding: 0px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+a {
+    text-decoration: underline;
+    color: seashell;
+    margin: 10px;
+}
+.mission {
+    background-image: url("./img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 400px;
+}
+.missions {
+    background-color: black;
+    padding: 10px;
+    font-size: 24px;  
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.images {
+    width: 300px;
+    height: 200px;
+    align-items: center;
+}
+.container {
+    background-image: url("./locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    
+}
+.locations {
+    border: 1px solid black;
+    background-color: black; 
+    display:inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    margin-right: 40px;
+    opacity: 1;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-weight: 700;
+    }
+
+.footer {
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid black;
+    color: seashell;
+    height: 200px;
+    
+}
+h5 {
+    font-size: 26px;
+    opacity: 1;
+    margin: 10px;
+}
+.footer p {
+    font-size: 24px;
+}
+.cont h2 {
+    margin-top: 80px;
+}
+.cont h4 {
+    margin-bottom: 30px;
+}
+.foot {
+    text-align: left;
+    margin-left: 15px;
+}
